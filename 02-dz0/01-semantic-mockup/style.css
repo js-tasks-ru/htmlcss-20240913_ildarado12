@@ -1,0 +1,54 @@
+header {
+    background-color: red;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    font-weight: bold;
+    background-color: tomato;
+}
+
+main {
+    background-color: yellow;
+    padding: 20px;
+}
+
+article h2 {
+    margin: 0;
+}
+
+article {
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+ul, ol {
+    background-color: lightsalmon;
+    margin: 10px;
+}
+
+li {
+    padding: 5px;
+}
+
+footer {
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h3 {
+    margin: 0;
+}
