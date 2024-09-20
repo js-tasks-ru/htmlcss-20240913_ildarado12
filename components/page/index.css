@@ -1,0 +1,11 @@
+.page {
+    font-family: Inter;
+    color: #212429;
+}
+
+.page__line {
+    margin: 0;
+    color: #DDE2E5;
+	height: 1px;
+    border: none;
+}
