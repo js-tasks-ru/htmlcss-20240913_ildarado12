@@ -1,0 +1,12 @@
+.header {
+    min-height: 237px;
+}
+
+.header__heading {
+    margin-top: 96px;
+    margin-left: 160px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 64px;
+    text-align: left;
+}
