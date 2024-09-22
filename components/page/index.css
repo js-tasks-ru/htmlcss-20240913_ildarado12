@@ -1,11 +1,10 @@
 .page {
-    font-family: Inter;
-    color: #212429;
+    color: var(--black);
 }
 
 .page__line {
     margin: 0;
-    color: #DDE2E5;
+    color: var(--grey-2);
 	height: 1px;
     border: none;
 }

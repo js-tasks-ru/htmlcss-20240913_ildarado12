@@ -1,12 +1,11 @@
 .header {
-    min-height: 237px;
+    font-family: 'Inter', sans-serif;
+    padding: 96px 160px 77px;
 }
 
 .header__heading {
-    margin-top: 96px;
-    margin-left: 160px;
-    font-size: 50px;
+    font-style: normal;
     font-weight: 500;
+    font-size: 50px;
     line-height: 64px;
-    text-align: left;
 }
