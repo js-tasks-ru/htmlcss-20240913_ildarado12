@@ -5,6 +5,7 @@
 }
 
 .footer__heading {
+    margin: 32px auto;
     font-size: 38px;
     font-weight: 500;
     line-height: 48px;
