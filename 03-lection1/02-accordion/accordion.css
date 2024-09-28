@@ -8,14 +8,10 @@
 }
 
 .accordion__item {
-    margin-bottom: 8px;
-    border: 1px solid #ACB5BD;
-    border-radius: 8px;
-    max-width: 730px;
-    padding: 23px 31px;
+    padding: 24px 32px;
 }
 
-.accordion__item[open]>.accordion__summary {
+.accordion__summary {
     color: #292121;
     transition-duration: 1s;
 }
