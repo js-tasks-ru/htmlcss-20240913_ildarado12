@@ -1,4 +1,11 @@
 .main {
     min-height: 1036px;
     background-color: #F9FAFC;
+    padding: 68px 165px;
+}
+
+.main__grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
 }
