@@ -7,6 +7,8 @@
     box-shadow: 0px 2px 4px 0px #2124290D;
     background-color: var(--white);
     padding: 30px;
+    text-decoration: none;
+    color: var(--black);
 }
 
 .card__title {
