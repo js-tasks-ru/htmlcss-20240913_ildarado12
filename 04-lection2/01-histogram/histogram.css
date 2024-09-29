@@ -1,0 +1,47 @@
+.histogramCard {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Inter', sans-serif;
+    padding: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+}
+
+.histogramCard__result {
+    flex-basis: 50%;
+    margin: 0;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.histogramCard__link {
+    flex-basis: 50%;
+    margin: 0;
+    text-align: right;
+    color: #4263EB;
+}
+
+.histogramCard__resultNumber {
+    flex-basis: 100%;
+    margin-top: 6px;
+    margin-bottom: 39px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.histogram {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+    gap: 1px;
+    align-items: end;
+}
+
+.histogram__item {
+    background: #4263EB;
+    height: 50px;
+    flex-grow: 1;
+}
