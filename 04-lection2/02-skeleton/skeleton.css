@@ -9,9 +9,9 @@
 
 .skeletonCard__title {
     display: flex;
-    flex-basis: 100%;
     margin-bottom: 16px;
     gap: 16px;
+    width: 100%;
 }
 
 .skeletonCard__icon {
@@ -23,17 +23,17 @@
 
 .skeletonCard__iconText {
     display: flex;
-    flex-basis: 50%;
     align-items: center;
     flex-wrap: wrap;
+    width: 50%;
 }
 
 .skeletonCard__text {
-    flex-basis: 100%;
+    width: 100%;
     height: 20px;
     background: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
 }
 
-.skeletonCard__text_length {
-    flex-basis: 67%;
+ .skeletonCard__text_length {
+    width: 67%;
 }
