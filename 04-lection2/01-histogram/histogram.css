@@ -1,6 +1,4 @@
 .histogramCard {
-/*     display: flex;
-    flex-wrap: wrap; */
     font-family: 'Inter', sans-serif;
     padding: 16px 24px 24px;
     font-size: 16px;
@@ -25,6 +23,7 @@
 .histogramCard__link {
     color: #4263EB;
     text-decoration: none;
+    padding-top: 3px;
 }
 
 .histogramCard__resultNumber {
