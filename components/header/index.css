@@ -9,3 +9,8 @@
     font-size: 50px;
     line-height: 64px;
 }
+
+.header_component {
+    grid-area: header;
+    padding: 41px 0;
+}
