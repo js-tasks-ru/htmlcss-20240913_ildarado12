@@ -1,5 +1,4 @@
 .main {
-    min-height: 1036px;
     background-color: #F9FAFC;
     padding: 68px 165px;
 }
@@ -8,4 +7,21 @@
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+}
+
+.main__component {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+    grid-area: main;
+}
+
+.main__grid_component {
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px 0px #2124290D;
+    border-radius: 12px;
+}
+
+.main_component {
+    padding: 36px 165px 68px;
 }
