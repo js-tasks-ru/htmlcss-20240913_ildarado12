@@ -16,3 +16,34 @@
                          "main"
                          "footer";
 }
+
+.page_component .page__componentHeader {
+    grid-area: header;
+    padding: 41px 0;
+}
+
+.page_component .main {
+    padding: 36px 165px;
+}
+
+.page__componentMain {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+    grid-area: main;
+}
+
+.page_component .page__componentFooter {
+    grid-area: footer;
+    background-color: #F9FAFC;
+    padding: 24px 165px;
+}
+
+.page__componentFooter .page__componentFooterHeading {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: var(--grey-3);
+    text-transform:uppercase;
+}
