@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 
-.main__grid_component {
+.page__componentMain .main__grid {
     background-color: var(--white);
     box-shadow: 0px 2px 4px 0px #2124290D;
     border-radius: 12px;
