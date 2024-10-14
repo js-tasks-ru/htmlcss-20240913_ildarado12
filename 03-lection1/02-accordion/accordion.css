@@ -15,9 +15,8 @@
     padding: 23px 31px;
 }
 
-.accordion__item[open]>.accordion__summary {
-    color: #292121;
-    transition-duration: 1s;
+.accordion__item[open] .accordion__arrow {
+    transform: rotateX(180deg);
 }
 
 .accordion__item:last-child {
@@ -25,6 +24,9 @@
 }
 
 .accordion__summary { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
     color: #000;
 }
