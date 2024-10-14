@@ -1,6 +1,6 @@
 .avatar {
-    width: 102px;
-    height: 102px;
+    width: auto;
+    height: 100%;
 }
 
 .avatar__img {
