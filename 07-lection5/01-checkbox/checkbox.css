@@ -1,21 +1,8 @@
-.checkboxSet__title {
-    margin: 5px 0;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    text-transform: uppercase;
-    color: var(--grey-3);
-}
-
 .checkbox {
     display: flex;
     position: relative;
     align-items: center;
     gap: 12px;
-    padding: 8px 0;
 }
 
 .checkbox__input {
