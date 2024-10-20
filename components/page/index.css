@@ -4,7 +4,13 @@
 
 .page__line {
     margin: 0;
-    color: var(--grey-2);
+    background-color: var(--grey-2);
 	height: 1px;
     border: none;
+}
+
+@media screen and (max-width: 375px) {
+    .page {
+        color: var(--grey-4);
+    }
 }
