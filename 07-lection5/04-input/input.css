@@ -1,12 +1,10 @@
-.inputSet {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px 30px;
+.input {
+    display: inline-block;
+    padding: 8px 30px 8px 0;
 }
 
 .input__title {
-    margin: 0;
-    margin-bottom: 5px;
+    margin: 5px 0;
     font-family: Inter;
     font-size: 12px;
     font-weight: 500;
