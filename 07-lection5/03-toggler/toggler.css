@@ -1,20 +1,7 @@
-.togglerTitle {
-    margin: 5px 0;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    text-transform: uppercase;
-    color: var(--grey-3);
-}
-
 .toggler {
-    display: flex;
+    display: inline-flex;
     gap: 12px;
     align-items: center;
-    padding: 8px 0;
 }
 
 .toggler__input {
