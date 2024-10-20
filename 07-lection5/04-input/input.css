@@ -1,10 +1,9 @@
 .input {
     display: inline-block;
-    padding: 8px 30px 8px 0;
 }
 
 .input__title {
-    margin: 5px 0;
+    margin-bottom: 5px;
     font-family: Inter;
     font-size: 12px;
     font-weight: 500;
@@ -45,7 +44,7 @@
     color: var(--grey-3);
 }
 
-.input__iconSuccess, .input__iconError, .input__iconDisabled {
+.input__iconSuccess, .input__iconError {
     display: none;
     position: absolute;
     transform: translateX(calc(-100% - 16px)) translateY(calc(50% + 6px));
@@ -61,9 +60,4 @@
 
 .input_invalid .input__iconError {
     display: inline-block;
-}
-
-.input__field:disabled ~ .input__iconDisabled{
-    display: inline-block;
-    fill: var(--grey-3);
 }
