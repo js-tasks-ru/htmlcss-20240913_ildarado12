@@ -1,11 +1,5 @@
-.radioSet {
-    display: inline-block;
-    position: relative;
-}
-
-.radioSet__title {
-    margin: 0;
-    margin-bottom: 13px;
+.radioTitle {
+    margin: 5px 0;
     font-family: Inter;
     font-size: 12px;
     font-weight: 500;
@@ -18,21 +12,16 @@
 
 .radio {
     display: flex;
+    position: relative;
     gap: 12px;
-    margin-bottom: 16px;
+    padding: 8px 0;
+    align-items: center;
 }
 
 .radio__input {
     opacity: 0;
     position: absolute;
     left: -100vw;
-}
-
-.radio__state {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 12px;
 }
 
 .radio__control {
@@ -49,6 +38,10 @@
 
 .radio__icon {
     display: none;
+    width: 18px;
+    height: 18px;
+    background: #4263EB;
+    border-radius: 50%;
 }
 
 .radio__input:checked ~ .radio__state .radio__control {
