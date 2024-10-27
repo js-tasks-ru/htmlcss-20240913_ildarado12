@@ -1,16 +1,27 @@
 .main {
-    background-color: #F9FAFC;
-    padding: 68px 165px;
+  min-height: 1036px;
+  background-color: #f9fafc;
+  padding: 68px 165px;
 }
 
 .main__grid {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .page__componentMain .main__grid {
-    background-color: var(--white);
-    box-shadow: 0px 2px 4px 0px #2124290D;
-    border-radius: 12px;
+  background-color: var(--white);
+  box-shadow: 0px 2px 4px 0px #2124290d;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 375px) {
+  .main {
+    padding: 24px 15px 24px 16px;
+  }
+
+  .main__grid {
+    gap: 23px 16px;
+  }
 }

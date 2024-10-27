@@ -1,49 +1,107 @@
 <!DOCTYPE html>
 <!-- Главная страница -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="./assets/css/normalize.css">
-        <link rel="stylesheet" href="./assets/css/main.css">
-    </head>
-    <body>
-        <div class="page">
-            <header class="header">
-                <div class="container">
-                    <h1 class="header__heading">Reusable component library</h1>
-                </div>
-            </header>
-            <hr class="page__line">
-            <main class="main">
-                <div class="container">
-                    <div class="main__grid">
-                        <a href="" class="card">
-                            <h5 class="card__title">Tooltip</h5>
-                        </a>
-                        <a href="" class="card">
-                            <h5 class="card__title">Custom form elements</h5>
-                        </a>
-                        <a href="" class="card">
-                            <h5 class="card__title">Calendar</h5>
-                        </a>
-                        <a href="" class="card">
-                            <h5 class="card__title">Modal dialog</h5>
-                        </a>
-                        <a href="" class="card">
-                            <h5 class="card__title">Histogram</h5>
-                        </a>
-                        <a href="" class="card">
-                            <h5 class="card__title">Avatar</h5>
-                        </a>
-                    </div>
-                </div>
-            </main>
-            <hr class="page__line">
-            <footer class="footer">
-                <div class="container">
-                    <h2 class="footer__heading">About</h2>
-                    <p class="footer__text">This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories you're most curious about.</p>
-                </div>
-            </footer>
+  <head>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./06-lection4/01-avatar/avatar.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="container">
+          <div class="header__logo">
+            <svg
+              width="110"
+              height="32"
+              viewBox="0 0 110 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_17869_61)">
+                <rect y="1" width="30" height="30" fill="#212429" />
+                <rect x="38" width="32" height="32" rx="16" fill="#212429" />
+                <path d="M78 0L110 32H78V0Z" fill="#212429" />
+              </g>
+              <defs>
+                <clipPath id="clip0_17869_61">
+                  <rect width="110" height="32" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <h1 class="header__heading">Reusable component library</h1>
         </div>
-    </body>
+      </header>
+      <hr class="page__line" />
+      <main class="main">
+        <div class="container">
+          <div class="main__grid">
+            <a href="" class="card">
+              <div class="card__content"></div>
+              <div class="card__footer">
+                <hr class="card__line" />
+                <h5 class="card__title">Tooltip</h5>
+              </div>
+            </a>
+            <a href="" class="card">
+              <div class="card__content"></div>
+              <div class="card__footer">
+                <hr class="card__line" />
+                <h5 class="card__title">Custom form elements</h5>
+              </div>
+            </a>
+            <a href="" class="card">
+              <div class="card__content"></div>
+              <div class="card__footer">
+                <hr class="card__line" />
+                <h5 class="card__title">Calendar</h5>
+              </div>
+            </a>
+            <a href="" class="card">
+              <div class="card__content"></div>
+              <div class="card__footer">
+                <hr class="card__line" />
+                <h5 class="card__title">Modal dialog</h5>
+              </div>
+            </a>
+            <a href="" class="card">
+              <div class="card__content"></div>
+              <div class="card__footer">
+                <hr class="card__line" />
+                <h5 class="card__title">Histogram</h5>
+              </div>
+            </a>
+            <a href="" class="card">
+              <div class="card__content">
+                <div class="avatar_autoWidth">
+                  <img
+                    class="avatar__img"
+                    src="./06-lection4/01-avatar/public/avatar-200.jpg"
+                    alt="User's picture"
+                  />
+                </div>
+              </div>
+              <div class="card__footer">
+                <hr class="card__line" />
+                <h5 class="card__title">Avatar</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </main>
+      <hr class="page__line" />
+      <footer class="footer">
+        <div class="container">
+          <h2 class="footer__heading">About</h2>
+          <p class="footer__text">
+            This project is a collection of professionally designed, pre-built,
+            fully responsive HTML snippets you can drop into your projects. Get
+            started by checking out our free preview components, or browsing the
+            PNG previews in the categories you're most curious about.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
