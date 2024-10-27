@@ -1,20 +1,20 @@
 .main {
-    background-color: #F9FAFC;
-    padding: 68px 165px;
+  background-color: #f9fafc;
+  padding: 68px 16px;
 }
 
 .main__grid {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 375px) {
-    .main {
-        padding: 24px 15px 24px 16px;
-    }
+  .main {
+    padding: 24px 15px 24px 16px;
+  }
 
-    .main__grid {
-        gap: 23px 16px;
-    }
+  .main__grid {
+    gap: 23px 16px;
+  }
 }
