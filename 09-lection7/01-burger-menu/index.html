@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <!-- Страница бургер-меню -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./burger-menu.css">
-        <script defer src="./burger-menu.js"></script>
-    </head>
-    <body>
-
-    </body>
+  <head>
+    <link rel="stylesheet" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./burger-menu.css" />
+    <script defer src="./burger-menu.js"></script>
+  </head>
+  <body>
+    <button class="burgerMenu__open" id="burger-menu-open">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3 12H21"
+          stroke="#495057"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M3 6H21"
+          stroke="#495057"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M3 18H21"
+          stroke="#495057"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <div class="burgerMenu" id="burger-menu">
+      <button class="burgerMenu__close" id="burger-menu-close">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M18 6L6 18"
+            stroke="#212429"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M6 6L18 18"
+            stroke="#212429"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <hr class="page__line" />
+      <div class="burgerMenu__theme">
+        <label class="toggler toggler_burger">
+          <div class="toggler__text">Dark mode</div>
+          <input type="checkbox" class="toggler__input" />
+          <div class="toggler__state">
+            <div class="toggler__control">
+              <div class="toggler__icon"></div>
+            </div>
+          </div>
+        </label>
+      </div>
+      <hr class="page__line" />
+      <div class="burgerMenu__components">
+        <h4 class="burgerMenu__title">Components</h4>
+        <a href="" class="burgerMenu__component">Modal</a>
+        <a href="" class="burgerMenu__component">Tooltip</a>
+        <a href="" class="burgerMenu__component">Avatar</a>
+        <a href="" class="burgerMenu__component">Calendar</a>
+        <a href="" class="burgerMenu__component">Histogram</a>
+        <a href="" class="burgerMenu__component">Custom form elements</a>
+      </div>
+      <div class="burgerMenu__components"></div>
+      <div class="burgerMenu__components">
+        <a href="" class="burgerMenu__component">Main page</a>
+      </div>
+    </div>
+  </body>
 </html>
