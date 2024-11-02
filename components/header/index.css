@@ -1,34 +1,35 @@
 .header {
-    font-family: 'Inter', sans-serif;
-    padding: 96px 0 77px;
+  font-family: 'Inter', sans-serif;
+  padding: 24px 16px 40px;
 }
 
 .header__heading {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 64px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 64px;
+  margin: 38px 0 0;
 }
 
 .header__logo {
-    display: flex;
-    gap: 8px;
-    justify-content: start;
+  display: flex;
+  gap: 8px;
+  justify-content: start;
 }
 
 @media screen and (max-width: 375px) {
-    .header {
-        padding: 16px 16px 69px;
-    }
+  .header {
+    padding: 16px 16px 69px;
+  }
 
-    .header__logo {
-        justify-content: center;
-    }
+  .header__logo {
+    justify-content: center;
+  }
 
-    .header__heading {
-        font-size: 28px;
-        font-weight: 400;
-        line-height: 38px;
-        text-align: left;
-    }
+  .header__heading {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+  }
 }
